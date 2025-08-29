@@ -1,0 +1,25 @@
+
+.component {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    gap: 5mm;
+}
+
+.wrapper {
+    border:1px dashed #98c1d9;
+    width: 92mm;
+    height: 200mm;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 5mm;
+}
+
+
+@media print {
+    @page {
+        size: A4 landscape;
+        margin: 0mm;
+    }
+}

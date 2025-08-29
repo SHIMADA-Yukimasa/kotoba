@@ -1,0 +1,28 @@
+doctype html
+html(lang="ja")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="css/reset.css")
+        link(rel="stylesheet", href="css/style.css")
+        link(rel="stylesheet", href="css/_kiyomizu.css")
+        link(rel="stylesheet", href="css/_kotoba.css")
+        link(rel="stylesheet", href="css/_oshie.css")
+        link(rel="stylesheet", href="css/_reizanji.css")
+        link(rel="stylesheet", href="css/_renjyouin.css")
+        link(rel="stylesheet", href="css/_yotei.css")
+        title 清水寺通信
+    body 
+        .component
+            .wrapper#kotoba
+                include pug/_kotoba
+            .wrapper#oshie
+                include pug/_oshie
+            .wrapper#yotei 
+                include pug/_yotei
+            .wrapper#kiyomizu 
+                include pug/_kiyomizu
+            .wrapper#renjyouin 
+                include pug/_renjyouin 
+            .wrapper#reizanji 
+                include pug/_reizanji
