@@ -1,4 +1,6 @@
 #oshie {
+    display: flex;
+    flex-flow: column;
     
     .title {
         width:100%;
@@ -6,6 +8,16 @@
         font-size: 2em;
         text-align: center;
         padding: 3mm 0;
+    }
+
+    .haikei {
+        height: 100%;
+        width: 100%;
+        background-image: url(../media/09/tsukimi_jugoya.png);
+        background-color: rgba(256, 256, 256, 0.8);
+        background-blend-mode: overlay;
+        background-size: cover;
+        background-position: center;
     }
 
     .p {

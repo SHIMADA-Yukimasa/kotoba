@@ -17,6 +17,19 @@
         padding: 3mm 0;
     }
 
+    .haikei {
+        height: 100%;
+        width: 100%;
+        background-image: url(../media/09/imashime.jpg);
+        background-color: rgba(256, 256, 256, 0.7);
+        background-blend-mode: overlay;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
     .copy {
         font-size: 1.8em;
         writing-mode: vertical-rl;
