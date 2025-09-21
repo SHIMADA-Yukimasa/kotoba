@@ -1,0 +1,51 @@
+.tateCtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    writing-mode: vertical-rl;
+    
+}
+
+.ren-image {
+    background-image: url(../media/10/PXL_20241110_232921462.jpg);
+    background-color: rgba(256, 256, 256, 0.7);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+}
+
+.yoko {
+    text-combine-upright: all;
+}
+
+
+.ren-nichiji {
+    font-size: 2em;
+    margin-left: 1.2em;
+    font-weight: bold;
+}
+
+.ren-subtitle {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: hsl(160, 50%, 30%);
+}
+
+.ren-title {
+    font-size: 3em;
+    margin-left: 1em;
+    font-weight: bolder;
+    color: hsl(0, 50%, 50%);
+}
+
+.ren-torii {
+    font-size: 1.3em;
+    margin-top: 10em;
+    font-weight: bold;
+}
+
+.ren-kuguri {
+    font-size: 2em;
+    margin-top: 8em;
+    font-weight: bold;
+}

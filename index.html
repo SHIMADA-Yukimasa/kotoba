@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="print.css" media="print">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/kiyomizu.css">
@@ -17,7 +18,8 @@
     <div class="component">
       <div class="wrapper" id="kotoba">
         <div class="container">
-          <p class="title">９月の言葉</p>
+          <div class="title-back"></div>
+          <p class="title">10月の言葉</p>
           <div class="haikei">
             <div class="copy">強情をなくし謙虚な態度で <br>時に応じて師のもとに行け <br>ものごとと真理と自制と清らかな行いとを <br>心に憶い、かつ実行せよ </div>
           </div>
@@ -95,10 +97,18 @@
       </div>
       <div class="wrapper" id="kiyomizu"> 
         <div class="containar">
-          <p class="title">清水寺からのお知らせ</p>
-          <p>安来清水寺千年の伝統を誇る</p>
-          <p><u>光明真言会 諷誦 法要日程</u></p>
+          <div class="title-back">
+            <div class="title">清水寺からのお知らせ</div>
+          </div>
+          <div class="fujyu">
+            <div class="fujyu-info">
+              <div class="yasugi">安来清水寺千年の伝統を誇る</div>
+              <div class="koumyou"><ruby>光明真言<rp>(</rp><rt>こうみょうしんごん</rt><rp>)</rp></ruby><ruby>会<rp>(</rp><rt>え</rt><rp>)</rp></ruby> （<ruby>諷誦<rp>(</rp><rt>ふじゅ</rt><rp>)</rp></ruby>）</div>
+            </div>
+            <div class="fujyu-nittei">令和7年度<br>法要日程</div>
+          </div>
           <div class="waku"> 
+            <div class="fujyu-img"><img src="./media/10/IMG_1346.JPG" alt=""></div>
             <table>
               <tbody>
                 <tr>
@@ -116,8 +126,8 @@
               </tbody>
             </table>
           </div>
-          <p>1150年前に慈覚大師円仁が伝えた小明真言の秘法により亡者生前の一切の罪を消し、極楽浄土へお送りする法要です。</p>
-          <table>
+          <p class="jikaku">1150年前に慈覚大師円仁が伝え光明真言の秘法により亡者生前の一切の罪を消し、極楽浄土へお送りする法要です。</p>
+          <table class="myouga">
             <tbody>
               <tr>
                 <th colspan="2">供養冥加料</th>
@@ -132,23 +142,38 @@
               </tr>
             </tbody>
           </table>
-          <p>法要前日まで受け付け</p>
-          <p>お申込みは本堂受付までお越しください</p>
+          <p class="kijitu">法要前日まで受け付け</p>
+          <p class="uketuke">お申込みは本堂受付までお越しください</p>
         </div>
       </div>
       <div class="wrapper" id="renjyouin"> 
-        <p class="title">蓮乗院からのお知らせ</p>
-        <div class="tateCtn">
-          <div class="annai">稲荷社からの案内</div>
-          <div class="p">毎月11日は稲荷社ご縁日です</div>
-          <div class="p">法要 午後11時～</div>
-          <div class="toiawase">お問い合わせは清水寺本堂祈祷受付までお越しください</div>
+        <div class="containar ren-image">
+          <div class="title-back">
+            <div class="title">蓮乗院からのお知らせ</div>
+          </div>
+          <div class="tateCtn">
+            <div class="ren-nichiji"><span class="yoko">11</span>月<span class="yoko">11</span>日（月） 午前<span class="yoko">10</span>時より</div>
+            <div class="ren-subtitle">清水寺稲荷社大祭</div>
+            <div class="ren-title">もっこ祭り</div>
+            <div class="ren-torii">鳥居奉納</div>
+            <div class="ren-kuguri">くぐり初め</div>
+          </div>
+          <div class="ren-imege">
+            <div class="ren-yudate"></div>
+            <div class="ren-mikan"></div>
+          </div>
         </div>
       </div>
       <div class="wrapper" id="reizanji"> 
-        <p>薬師護摩供養祭</p>
-        <p>毎月８日 午後２時より</p>
-        <P>お問い合わせは<br>0854-22-2151<br>清水寺まで</P>
+        <div class="containar">
+          <div class="title-back">
+            <div class="title">清水寺からのお知らせ</div>
+          </div>
+          <div class="rei-image"><img src="../media/10/reizan.jpg" alt=""></div>
+          <div class="yakushiku">薬師護摩供養祭</div>
+          <div class="rei-nichiji">毎月８日<br>午後２時より</div>
+          <div class="rei-toiawase">お問い合わせは<br>TEL:0854-22-2151<br>清水寺まで</div>
+        </div>
       </div>
     </div>
   </body>
