@@ -6,6 +6,7 @@
         width:100%;
         height: 15mm;
         font-size: 2em;
+        font-weight: bolder;
         text-align: center;
         padding: 3mm 0;
     }
@@ -20,6 +21,7 @@
     }
 
     .p {
+        font-size: 1em;
         line-break: strict;
     }
 }

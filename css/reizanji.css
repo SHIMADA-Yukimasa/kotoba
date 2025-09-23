@@ -1,4 +1,5 @@
 .rei-image {
+    padding: 1em;
 }
 
 .yakushiku {
@@ -12,6 +13,6 @@
 
 
 .rei-toiawase {
-    font-size: 2em;
+    font-size: 1.4em;
     text-align: center;
 }
