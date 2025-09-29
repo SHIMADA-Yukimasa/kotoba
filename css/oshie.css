@@ -20,8 +20,13 @@
         background-position: center;
     }
 
+    .padding {
+        padding: 1em;
+        font-weight: bold;
+        font-size: 0.94em;
+    }
+
     .p {
-        font-size: 1em;
         line-break: strict;
     }
 }
