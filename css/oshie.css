@@ -6,6 +6,7 @@
         width:100%;
         height: 15mm;
         font-size: 2em;
+        font-weight: bolder;
         text-align: center;
         padding: 3mm 0;
     }
@@ -17,6 +18,12 @@
         background-blend-mode: overlay;
         background-size: cover;
         background-position: center;
+    }
+
+    .padding {
+        padding: 1em;
+        font-weight: bold;
+        font-size: 0.94em;
     }
 
     .p {

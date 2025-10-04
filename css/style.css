@@ -13,7 +13,7 @@ body {
 }
 
 .wrapper {
-    border:1px dashed #98c1d9;
+    border:1px solid hsl(0, 50%, 10%);
     width: 92mm;
     height: 200mm;
     display: flex;
@@ -42,6 +42,7 @@ body {
 
 .containar .title-back .title {
     font-size: 2em;
+    font-weight: bold;
 }
 
 
@@ -49,6 +50,7 @@ body {
     @page {
         size: A4 landscape;
         margin: 0mm;
+        -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
     }
 }
