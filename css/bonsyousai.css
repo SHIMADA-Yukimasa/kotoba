@@ -1,0 +1,72 @@
+#bonsyousai {
+    .body-containar {
+        display: flex;
+        flex-direction: row-reverse;
+
+        .schedule-containar {
+            display: flex;
+            flex-direction: column;
+
+            .bonshousai {
+                writing-mode: vertical-rl;
+                font-size: 3em;
+                padding-bottom: 1em;
+            }
+
+            .yotei-containar {
+                display: flex;
+                flex-direction: row-reverse;
+
+                .hiduke {
+                    writing-mode: vertical-lr;
+
+                }
+
+                .jikann {
+                    writing-mode: vertical-lr;
+
+                }
+            }
+        }
+
+        .part-containar {
+            display: flex;
+            flex-direction: column;
+            .explanation-containar {
+                display: flex;
+                flex-direction: column;
+
+                .ichinen {}
+
+                .gazou {}
+
+                .rainen {}
+            }
+
+            .gomagi-containar {
+                display: flex;
+                flex-direction: column;
+
+                .soegoma {}
+
+                .gohyakuen {}
+
+                .gomagi-gazou {}
+
+                .negaigoto {}
+            }
+        }
+    }
+
+    .foot-containar {
+        .irai {
+            text-align: center;
+            background-color: oklch(80%, 50%, 0);
+        }
+    }
+
+}
+
+.yoko {
+    text-combine-upright: all;
+}
