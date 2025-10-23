@@ -1,11 +1,16 @@
 #bonsyousai {
+    font-weight: bold;
     .body-containar {
         display: flex;
         flex-direction: row-reverse;
+        padding: 1em;
 
         .schedule-containar {
             display: flex;
             flex-direction: column;
+            background-color: oklch(50% 50% 45);
+            padding: 0.5vw;
+            color: white;
 
             .bonshousai {
                 writing-mode: vertical-rl;
@@ -16,6 +21,8 @@
             .yotei-containar {
                 display: flex;
                 flex-direction: row-reverse;
+                justify-content: space-evenly;
+                
 
                 .hiduke {
                     writing-mode: vertical-lr;
@@ -32,28 +39,45 @@
         .part-containar {
             display: flex;
             flex-direction: column;
+
             .explanation-containar {
                 display: flex;
                 flex-direction: column;
 
-                .ichinen {}
+                .ichinen {
+                    color: oklch(30% 50% 270);
+                    font-size: 0.8em;
+                }
 
                 .gazou {}
 
-                .rainen {}
+                .rainen {
+                    font-size: 0.8em;
+                    color: oklch(30% 50% 180);
+                }
             }
 
             .gomagi-containar {
                 display: flex;
                 flex-direction: column;
+                align-items: center;
+                color: oklch(30% 50% 45);
+                background-color: oklch(90% 50% 45);
+                padding: 0em 0em;
 
                 .soegoma {}
 
                 .gohyakuen {}
 
-                .gomagi-gazou {}
+                .gomagi-gazou {
+                    width: 6em;
+                    height: 9em;
+                }
 
-                .negaigoto {}
+                .negaigoto {
+                    color: oklch(30% 30% 270);
+                    font-size: 1em;
+                }
             }
         }
     }
@@ -67,6 +91,6 @@
 
 }
 
-.yoko {
+yoko {
     text-combine-upright: all;
 }
