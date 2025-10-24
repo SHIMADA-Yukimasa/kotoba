@@ -39,10 +39,14 @@
         .part-containar {
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
+            font-size: 0.9em;
 
             .explanation-containar {
+                height: 100%;
                 display: flex;
                 flex-direction: column;
+                justify-content: space-around;
 
                 .ichinen {
                     color: oklch(30% 50% 270);
