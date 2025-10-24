@@ -59,6 +59,10 @@
     align-items: center;
 }
 
+.ren-image-containar {
+    display: flex;
+    flex-direction: row;
+}
 .img-torii, .img-mikan {
     font-size: 1.3em;
     display: flex;

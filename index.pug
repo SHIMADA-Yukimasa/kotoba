@@ -5,23 +5,23 @@ html(lang="ja")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         link(rel="stylesheet", href="css/reset.css")
         link(rel="stylesheet", href="css/style.css")
-        link(rel="stylesheet", href="css/kiyomizu.css")
         link(rel="stylesheet", href="css/kotoba.css")
         link(rel="stylesheet", href="css/oshie.css")
         link(rel="stylesheet", href="css/reizanji.css")
         link(rel="stylesheet", href="css/renjyouin.css")
+        link(rel="stylesheet", href="css/bonsyousai.css")
         link(rel="stylesheet", href="css/yotei.css")
         title 清水寺通信
     body 
         .component
             .wrapper#kotoba
                 include pug/_kotoba
-            .wrapper#yotei 
-                include pug/_yotei
             .wrapper#oshie
                 include pug/_oshie
-            .wrapper#kiyomizu 
-                include pug/_kiyomizu
+            .wrapper#yotei 
+                include pug/_yotei
+            .wrapper#bonsyousai 
+                include pug/_bonsyousai
             .wrapper#renjyouin 
                 include pug/_renjyouin 
             .wrapper#reizanji 
