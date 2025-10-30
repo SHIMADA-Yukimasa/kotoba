@@ -1,0 +1,53 @@
+#tokubetukoukai {
+    .containar {
+        .title-back {
+            background-color: brown;
+            .title {}
+        }
+
+    }
+    .yoko-containar {
+        display: flex;
+        flex-direction: row-reverse;
+        .title-containar {
+            border: 1px solid brown;
+            display: flex;
+            flex-direction: row;
+            writing-mode: vertical-rl;
+            align-items: center;
+            justify-content: space-around;
+
+            .koukai {
+                font-size: 1.8em;
+                color: brown;
+                font-weight: bold;
+            }
+            .nichiji-containar {
+                display: flex;
+                flex-direction: column;
+                font-weight: bold;
+                    .nichi {font-size: 1.3em;}
+                    .ji {font-size: 1.3em;}
+            }
+        }
+        
+        .info-containar {
+            margin: 0px 1em;
+            .title {
+                font-size: 1.3em;
+                font-weight: bold;
+                text-align: center;
+            }
+            .san-pict {
+                img {
+                    width: 100%;
+                }
+            }
+            .body {
+                margin-bottom: 0.6em;
+                font-weight: bold;
+            }
+
+        }
+    }
+}
