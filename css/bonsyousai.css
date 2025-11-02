@@ -65,8 +65,8 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                color: oklch(30% 50% 45);
-                background-color: oklch(90% 50% 45);
+                color: oklch(30% 50% 30);
+                background-color:  hsl(30, 50%, 50%);
                 padding: 0em 0em;
 
                 .soegoma {}
