@@ -2,7 +2,6 @@
     .containar {
         .title-back {
             background-color: brown;
-            .title {}
         }
 
     }
@@ -34,7 +33,7 @@
         .info-containar {
             margin: 0px 1em;
             .title {
-                font-size: 1.3em;
+                font-size: 1.5em;
                 font-weight: bold;
                 text-align: center;
             }

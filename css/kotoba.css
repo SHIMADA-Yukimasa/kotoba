@@ -27,6 +27,7 @@
     .copy {
         font-size: 1.8em;
         font-weight: bolder;
+        line-height: 2;
         writing-mode: vertical-rl;
     }
 
