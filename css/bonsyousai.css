@@ -1,20 +1,23 @@
 #bonsyousai {
     font-weight: bold;
+
     .body-containar {
+
+        height: 100%;
         display: flex;
         flex-direction: row-reverse;
-        padding: 1em;
 
         .schedule-containar {
             display: flex;
             flex-direction: column;
+            justify-content: space-around;
             background-color: oklch(50% 50% 45);
             padding: 0.5vw;
             color: white;
 
             .bonshousai {
                 writing-mode: vertical-rl;
-                font-size: 3em;
+                font-size: 2em;
                 padding-bottom: 1em;
             }
 
@@ -40,24 +43,23 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            font-size: 0.9em;
 
             .explanation-containar {
-                height: 100%;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
 
-                .ichinen {
-                    color: oklch(30% 50% 270);
-                    font-size: 0.8em;
+                .gazou {
+                    margin: 1vw;
+                    img {
+                        vertical-align: top;
+                    }
                 }
 
-                .gazou {}
-
                 .rainen {
-                    font-size: 0.8em;
+                    font-size: 0.9em;
                     color: oklch(30% 50% 180);
+                    padding: 0.5vw;
                 }
             }
 

@@ -7,6 +7,7 @@
     }
     .yoko-containar {
         display: flex;
+        height: 100%;
         flex-direction: row-reverse;
         .title-containar {
             border: 1px solid brown;
@@ -31,6 +32,9 @@
         }
         
         .info-containar {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
             margin: 0px 1em;
             .title {
                 font-size: 6cqw;
