@@ -79,7 +79,9 @@
 
                 .soegoma {}
 
-                .gohyakuen {}
+                .gohyakuen {
+                    font-size: 1.3em;
+                }
 
                 .gomagi-gazou {
                     width: 6em;
