@@ -1,11 +1,12 @@
 #oshie {
     display: flex;
     flex-flow: column;
+    container-type: inline-size;
     
     .title {
         width:100%;
         height: 15mm;
-        font-size: 2em;
+        font-size: 8cqw;
         font-weight: bolder;
         text-align: center;
         padding: 3mm 0;
@@ -23,7 +24,7 @@
     .padding {
         padding: 1em;
         font-weight: bold;
-        font-size: 0.94em;
+        font-size: 4.4cqw;
     }
 
     .p {

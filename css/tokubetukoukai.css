@@ -18,7 +18,7 @@
             justify-content: space-around;
 
             .koukai {
-                font-size: 1.8em;
+                font-size: 8cqw;
                 color: brown;
                 font-weight: bold;
             }
@@ -26,8 +26,8 @@
                 display: flex;
                 flex-direction: column;
                 font-weight: bold;
-                    .nichi {font-size: 1.3em;}
-                    .ji {font-size: 1.3em;}
+                    .nichi {font-size: 6cqw;}
+                    .ji {font-size: 6cqw;}
             }
         }
         
@@ -47,7 +47,7 @@
                 }
             }
             .body {
-                margin-bottom: 0.6em;
+                margin-bottom: 6cqw;
                 font-weight: bold;
             }
 
